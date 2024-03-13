@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Healthcare Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+    <div class="login-container">
+        <form action="/login" method="post" onsubmit="return handleLogin()">
+            <h2>Login - Healthcare Management System</h2>
+            <label for="userType">Select User Type:</label>
+            <select id="userType" name="userType" required>
+                <option value="healthcareProfessionals">HealthCare Professionals</option>
+                <option value="patients">Patients</option>
+            </select>
+            <label for="user id">User ID:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+</body>
+</html>
