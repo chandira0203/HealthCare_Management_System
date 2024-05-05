@@ -10,7 +10,7 @@ I have developed a HealthCare Management System which can be tailored to a speci
 The system is built with the use of html,css,javascript,php and MySql.
 Since the system is based on php we need to make use server to host (eg.XAMPP)
 download the entire folder -" HealthCare_Management_System" and save it in the htdocs folder (which will be present in xampp folder after you install XAMPP server)
-.Open the xampp server and start the Apache and MySql module then browse localhost/phpmyadmin , create a database named "HealthcareDatabase" then import the data(i.e., Tables)  of "HealthCare_Mangement_Database" in the created database.
+.Open the xampp server and start the Apache and MySql module then browse localhost/phpmyadmin , create a database named "healthcaredatabase" then import the data(i.e., Tables)  of "HealthCare_Mangement_Database" in the created database.
 Host the website by entering localhost/HealthCare_Management_System in your browser (here HealthCare_Management_System is the folder name where all the source code is saved)
 
 There is seperate login for patients,doctors and admins
@@ -34,6 +34,8 @@ The admin can change his/her password ,
 
 
 To use this system make use of the following credintials
+
+*Make sure to logout out before logging in as different user*
 
 admin
 
